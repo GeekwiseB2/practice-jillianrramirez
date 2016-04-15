@@ -42,3 +42,87 @@
   color: white;
   padding: 20px;
 }
+
+
+/*=====  Begin Media Query Examples ======*/
+@media screen and (min-width: 900px) {
+  .big-guy {
+    display: none;
+  }
+
+@media screen and (max-width: 950px) {
+  .big-guy {
+  display: block;
+}
+}
+/*=====  End Media Query Example  =====*/
+
+/*=====  Begin Media Queries for Day 3 Practice  =====*/
+@media screen and (min-width: 768px) {
+    .container-fluid {
+      background-color: blue;
+      color: yellow;
+    }
+    .header {
+      background-color: green;
+      color: red;
+    }
+    .nav {
+      background-color: red;
+      color: green;
+    }
+    .content {
+      background-color: aqua;
+      color: orange;
+    }
+    .aside {
+      background-color: orange;
+      color: aqua;
+    }
+    .promo {
+      background-color: black;
+      color: white;
+      border: 3px solid white;
+
+    }
+    .footer {
+      background-color: yellow;
+      color: black;
+    }
+  }
+
+
+@media screen and (min-width: 375px) {
+    .container-fluid {
+      background-color: green;
+      color: white;
+    }
+    .header {
+      background-color: red;
+      color: white;
+    }
+    .nav {
+      background-color: aqua;
+      color: white;
+    }
+    .content {
+      background-color: orange;
+      color: white;
+    }
+    .aside {
+      background-color: black;
+      color: white;
+    }
+    .promo {
+      background-color: yellow;
+      color: white;
+      border: 3px solid white;
+
+    }
+    .footer {
+      background-color: blue;
+      color: white;
+    }
+  }
+
+
